@@ -1,0 +1,3 @@
+# EducationPlatform
+仿慕课网的教育平台，项目采用前后端分离的技术架构，前端采用vue.js技术栈，服务端采用SpringBoot、SpringCloud等Spring全家桶技术栈。
+CMS 服务端工程基于Spring Boot实现业务接口，响应json格式的数据。采用MongoDB数据库存储CMS页面信息，数据访问层采用Spring Data Mongodb。采用FreeMarker实现页面静态化，页面模板与数据模型都存于Mongodb，用MongoDB提供的GridFS持久化存储模板文件。
